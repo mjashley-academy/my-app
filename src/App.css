@@ -6,7 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.heighlights {
+   background: #110def;
+    border: 1px solid red;
+    padding: 10px;
+    font-weight: bold;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
