@@ -35,7 +35,8 @@ class Players extends React.Component {
   render() {
     return (
       <div>
-        <h2>{this.state.title}</h2>
+        <h2>hi hello</h2>
+        <h2> {this.state.title}</h2>
         <button onClick={this.makeNewNum}>Make New T-Shirt Number</button>
         <br />
         <br />

@@ -26,6 +26,7 @@ import ContainerAndPresentationalComp from './Examples/ReactDesignPattern/Contai
 import StyledComp from './Examples/ReactDesignPattern/StyledComp';
 import ErrorBoundary from './Examples/ErrorBoundary';
 import PropsDrilling from './Examples/PropsDrilling';
+import Reactlazy from './Examples/Reactlazy';
 
 class App extends React.Component{
   state = {
@@ -45,11 +46,13 @@ changeNameFromInput = (event) =>{
     return (
       <div className="App">
         <header className="App-header">
+          <h1>Welcome to React</h1>
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<PropsDrilling />} />
+              <Route path="/" element={<Reactlazy/>} />
               <Route path="/users" element={<DisplayUsers />} />
               <Route path="/max" element={<HeighlightMax />} />
+              <Route path='*' element ={<h2>Page Not Found</h2>} />
             </Routes>
           </BrowserRouter>
           {

@@ -12,7 +12,7 @@ const ParentClass = (props) => {
 
 
 const ChildClass = (props) => {
-   return <GrandClass color = {props.color} />
+   return <GrandClass color = {props.color} /> 
 }
 
 const GrandClass = (props) => {
