@@ -27,7 +27,7 @@ import StyledComp from './Examples/ReactDesignPattern/StyledComp';
 import ErrorBoundary from './Examples/ErrorBoundary';
 import PropsDrilling from './Examples/PropsDrilling';
 import Reactlazy from './Examples/Reactlazy';
-
+//appComponent
 class App extends React.Component{
   state = {
     name:"Michael"
